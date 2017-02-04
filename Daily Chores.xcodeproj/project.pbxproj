@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6FDFE91CACCB1A0075F1EF /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE6FDFE81CACCB1A0075F1EF /* fontawesome-webfont.ttf */; };
+		CEA53CFC1CAC92FB0090B074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA53CFB1CAC92FB0090B074 /* AppDelegate.swift */; };
+		CEA53CFE1CAC92FB0090B074 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA53CFD1CAC92FB0090B074 /* FirstViewController.swift */; };
+		CEA53D001CAC92FB0090B074 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA53CFF1CAC92FB0090B074 /* SecondViewController.swift */; };
+		CEA53D031CAC92FB0090B074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA53D011CAC92FB0090B074 /* Main.storyboard */; };
+		CEA53D051CAC92FB0090B074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA53D041CAC92FB0090B074 /* Assets.xcassets */; };
+		CEA53D081CAC92FB0090B074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA53D061CAC92FB0090B074 /* LaunchScreen.storyboard */; };
+		CEA53D131CAC92FB0090B074 /* Daily_ChoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA53D121CAC92FB0090B074 /* Daily_ChoresTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA53D0F1CAC92FB0090B074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA53CF01CAC92FB0090B074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA53CF71CAC92FB0090B074;
+			remoteInfo = "Daily Chores";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6FDFE81CACCB1A0075F1EF /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		CEA53CF81CAC92FB0090B074 /* Daily Chores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Chores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA53CFB1CAC92FB0090B074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA53CFD1CAC92FB0090B074 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CEA53CFF1CAC92FB0090B074 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CEA53D021CAC92FB0090B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA53D041CAC92FB0090B074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA53D071CAC92FB0090B074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA53D091CAC92FB0090B074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA53D0E1CAC92FB0090B074 /* Daily ChoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily ChoresTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA53D121CAC92FB0090B074 /* Daily_ChoresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_ChoresTests.swift; sourceTree = "<group>"; };
+		CEA53D141CAC92FB0090B074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA53CF51CAC92FB0090B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA53D0B1CAC92FB0090B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A319CCCBB4C94C0EFC4F7A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA53CEF1CAC92FB0090B074 = {
+			isa = PBXGroup;
+			children = (
+				CEA53CFA1CAC92FB0090B074 /* Daily Chores */,
+				CEA53D111CAC92FB0090B074 /* Daily ChoresTests */,
+				CEA53CF91CAC92FB0090B074 /* Products */,
+				0A319CCCBB4C94C0EFC4F7A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA53CF91CAC92FB0090B074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA53CF81CAC92FB0090B074 /* Daily Chores.app */,
+				CEA53D0E1CAC92FB0090B074 /* Daily ChoresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA53CFA1CAC92FB0090B074 /* Daily Chores */ = {
+			isa = PBXGroup;
+			children = (
+				CEA53CFB1CAC92FB0090B074 /* AppDelegate.swift */,
+				CEA53CFD1CAC92FB0090B074 /* FirstViewController.swift */,
+				CEA53CFF1CAC92FB0090B074 /* SecondViewController.swift */,
+				CEA53D011CAC92FB0090B074 /* Main.storyboard */,
+				CEA53D041CAC92FB0090B074 /* Assets.xcassets */,
+				CE6FDFE81CACCB1A0075F1EF /* fontawesome-webfont.ttf */,
+				CEA53D061CAC92FB0090B074 /* LaunchScreen.storyboard */,
+				CEA53D091CAC92FB0090B074 /* Info.plist */,
+			);
+			path = "Daily Chores";
+			sourceTree = "<group>";
+		};
+		CEA53D111CAC92FB0090B074 /* Daily ChoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA53D121CAC92FB0090B074 /* Daily_ChoresTests.swift */,
+				CEA53D141CAC92FB0090B074 /* Info.plist */,
+			);
+			path = "Daily ChoresTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA53CF71CAC92FB0090B074 /* Daily Chores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA53D171CAC92FB0090B074 /* Build configuration list for PBXNativeTarget "Daily Chores" */;
+			buildPhases = (
+				CEA53CF41CAC92FB0090B074 /* Sources */,
+				CEA53CF51CAC92FB0090B074 /* Frameworks */,
+				CEA53CF61CAC92FB0090B074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Chores";
+			productName = "Daily Chores";
+			productReference = CEA53CF81CAC92FB0090B074 /* Daily Chores.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA53D0D1CAC92FB0090B074 /* Daily ChoresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA53D1A1CAC92FB0090B074 /* Build configuration list for PBXNativeTarget "Daily ChoresTests" */;
+			buildPhases = (
+				CEA53D0A1CAC92FB0090B074 /* Sources */,
+				CEA53D0B1CAC92FB0090B074 /* Frameworks */,
+				CEA53D0C1CAC92FB0090B074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA53D101CAC92FB0090B074 /* PBXTargetDependency */,
+			);
+			name = "Daily ChoresTests";
+			productName = "Daily ChoresTests";
+			productReference = CEA53D0E1CAC92FB0090B074 /* Daily ChoresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA53CF01CAC92FB0090B074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jayadev Akkiraju";
+				TargetAttributes = {
+					CEA53CF71CAC92FB0090B074 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 66RVLW56LR;
+					};
+					CEA53D0D1CAC92FB0090B074 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 66RVLW56LR;
+						TestTargetID = CEA53CF71CAC92FB0090B074;
+					};
+				};
+			};
+			buildConfigurationList = CEA53CF31CAC92FB0090B074 /* Build configuration list for PBXProject "Daily Chores" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA53CEF1CAC92FB0090B074;
+			productRefGroup = CEA53CF91CAC92FB0090B074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA53CF71CAC92FB0090B074 /* Daily Chores */,
+				CEA53D0D1CAC92FB0090B074 /* Daily ChoresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA53CF61CAC92FB0090B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA53D081CAC92FB0090B074 /* LaunchScreen.storyboard in Resources */,
+				CE6FDFE91CACCB1A0075F1EF /* fontawesome-webfont.ttf in Resources */,
+				CEA53D051CAC92FB0090B074 /* Assets.xcassets in Resources */,
+				CEA53D031CAC92FB0090B074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA53D0C1CAC92FB0090B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA53CF41CAC92FB0090B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA53D001CAC92FB0090B074 /* SecondViewController.swift in Sources */,
+				CEA53CFC1CAC92FB0090B074 /* AppDelegate.swift in Sources */,
+				CEA53CFE1CAC92FB0090B074 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA53D0A1CAC92FB0090B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA53D131CAC92FB0090B074 /* Daily_ChoresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA53D101CAC92FB0090B074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA53CF71CAC92FB0090B074 /* Daily Chores */;
+			targetProxy = CEA53D0F1CAC92FB0090B074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA53D011CAC92FB0090B074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA53D021CAC92FB0090B074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA53D061CAC92FB0090B074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA53D071CAC92FB0090B074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA53D151CAC92FB0090B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA53D161CAC92FB0090B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA53D181CAC92FB0090B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daily Chores/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Daily-Chores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA53D191CAC92FB0090B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daily Chores/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Daily-Chores";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA53D1B1CAC92FB0090B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daily ChoresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Daily-ChoresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Chores.app/Daily Chores";
+			};
+			name = Debug;
+		};
+		CEA53D1C1CAC92FB0090B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daily ChoresTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Daily-ChoresTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Chores.app/Daily Chores";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA53CF31CAC92FB0090B074 /* Build configuration list for PBXProject "Daily Chores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA53D151CAC92FB0090B074 /* Debug */,
+				CEA53D161CAC92FB0090B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA53D171CAC92FB0090B074 /* Build configuration list for PBXNativeTarget "Daily Chores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA53D181CAC92FB0090B074 /* Debug */,
+				CEA53D191CAC92FB0090B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA53D1A1CAC92FB0090B074 /* Build configuration list for PBXNativeTarget "Daily ChoresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA53D1B1CAC92FB0090B074 /* Debug */,
+				CEA53D1C1CAC92FB0090B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA53CF01CAC92FB0090B074 /* Project object */;
+}
