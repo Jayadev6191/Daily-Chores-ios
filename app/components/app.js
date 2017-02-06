@@ -25,15 +25,11 @@ let Firebase = require('firebase');
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#F5FCFF'
+    flex:1
   }
 });
 
 
-@connect(state => {
-  console.log(state);
-})
 export default class App extends Component {
   constructor(props){
     super(props);
@@ -51,36 +47,20 @@ export default class App extends Component {
 
     this.databaseRef = database.ref().child('chores');
 
-    this.state = {
-      newTodo: '',
-      todoSource: new ListView.DataSource({rowHasChanged: (row1,row2) => row1 !== row2 })
-    };
+    // this.state = {
+    //   newTodo: '',
+    //   todoSource: new ListView.DataSource({rowHasChanged: (row1,row2) => row1 !== row2 })
+    // };
 
-    this.chores = [];
+    // this.chores = [];
   }
-  componentDidMount(){
-    console.log("component mounted");
-    // this.databaseRef.on('child_added',(snapshot)=>{
-    //   let item = snapshot.val();
-    //   console.log(item);
-    //   this.chores.push({chore: item});
-    //   this.setState({
-    //     todoSource: this.state.todoSource.cloneWithRows(this.chores)
-    //   })
-    // });
-  }
-  addChore = (item)=>{
-    console.log("added item");
-    // this.databaseRef.push().set({
-    //   'chore': item
-    // });
-  }
+
   render() {
     return (
       <Provider store={store}>
           <View style={styles.container}>
             <Navigation/>
-            <Panel _onSubmit={this.addChore}/>
+            <Panel/>
             <ListContainer/>
           </View>
       </Provider>
